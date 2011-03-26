@@ -1,6 +1,6 @@
 
 
-(setq org-directory ~/Dropbox/notes)
+(setq org-directory  "~/Dropbox/notes")
 (setq org-default-notes-file (concat org-directory "notes.org"))
 (setq org-startup-indented t)
 (setq org-mobile-directory "~/Dropbox/MobileOrg/")
@@ -8,7 +8,7 @@
 
 (require 'org-latex)
 (require 'org-bibtex)
-(require 'org-exp-bibtex)
+;(require 'org-exp-bibtex)
 
 ;; Some special keys for something
 (global-set-key "\C-cl" 'org-store-link)
