@@ -4,4 +4,4 @@
 (color-theme-tangotango)
 
 (if (>= emacs-major-version 23)
-    (set-frame-font "Menlo-14"))
+    (set-frame-font "Inconsolata-14"))
